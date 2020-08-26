@@ -7,7 +7,15 @@ class Nav extends Component {
     return(
         <div className="nav-bar">
             <nav class="nav-list">
-                <h1>TheTalk</h1>
+                <h1>The Talks</h1>
+                <ul>
+                    <li>
+                        Interview Directory
+                    </li>
+                    <li>
+                        World Guide
+                    </li>
+                </ul>
             </nav>
         </div>
         

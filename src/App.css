@@ -11,9 +11,12 @@
   display:flex;
   align-items:center;
   position:top;
+  flex-direction: wrap;
 }
 .nav-list{
   align-content: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
 }
 
 .App-header {
