@@ -7,9 +7,7 @@ class Nav extends Component {
     return(
         <div className="blue">
             <nav class="nav-list">
-                <h1>The Talks</h1>
-                <h3>Interview Directory</h3>
-                <h3>World Guide</h3>
+                <h1>The Talks |  Interview Directory  |  World Guide</h1>
             </nav>
         </div>
         
