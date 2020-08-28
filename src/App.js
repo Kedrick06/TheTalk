@@ -4,25 +4,27 @@ import Nav from './Components/Nav';
 
 function App() {
   return (
-    <div className="container-app">
+  <div class='container'>
+    <div class='blue'>
       <Nav/>
-      <div className="box-1">
-      <h2 className="App-header">New Interview</h2>
-      <h2 className="App-header2">Interview Directors</h2>
-      <div className="item-one">
-        <img src="https://the-talks.com/wp-content/uploads/2019/12/Matt-Damon-01.jpg"></img>
-        <h2 className="sub-header">MATT DAMON: "THESE TYPES OF MOVIES ARE GOING AWAY"</h2>
-      </div>
-      <div className="item-two"></div>
-      <div className="item-three"></div>
-      <div className="item-four"></div>
-      <div className="item-five"></div>
-      <div className="item-six"></div>
-      <div className="item-seven"></div>
-      <div className="item-eight"></div>
-      <footer class="orange">Footer</footer>
     </div>
-  </div>
+    <div class='red'>
+      <img src="https://the-talks.com/wp-content/uploads/2019/12/Matt-Damon-01.jpg"></img>
+    </div>
+    <div class='green'>
+        <div class='greenchild'>
+            <div class='one'>1</div>
+            <div class='two'>2</div>
+            <div class='three'>3</div>
+            <div class='four'>4</div>
+            <div class='five'>5</div>
+            <div class='six'>6</div>
+            <div class='seven'>7</div>
+            <div class='eight'>8</div>
+        </div>
+    </div>
+    <footer class='orange'>Footer</footer>
+</div>
   );
 }
 

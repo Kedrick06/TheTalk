@@ -5,17 +5,11 @@ class Nav extends Component {
     render() {
 
     return(
-        <div className="nav-bar">
+        <div className="blue">
             <nav class="nav-list">
                 <h1>The Talks</h1>
-                <ul>
-                    <li>
-                        Interview Directory
-                    </li>
-                    <li>
-                        World Guide
-                    </li>
-                </ul>
+                <h3>Interview Directory</h3>
+                <h3>World Guide</h3>
             </nav>
         </div>
         
