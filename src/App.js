@@ -4,26 +4,26 @@ import Nav from './Components/Nav';
 
 function App() {
   return (
-  <div class='container'>
-    <div class='blue'>
+  <div className='container'>
+    <div className='blue'>
       <Nav/>
     </div>
-    <div class='red'>
+    <div className='red'>
       <img src="https://the-talks.com/wp-content/uploads/2019/12/Matt-Damon-01.jpg"></img>
     </div>
-    <div class='green'>
-        <div class='greenchild'>
-            <div class='one'>1</div>
-            <div class='two'>2</div>
-            <div class='three'>3</div>
-            <div class='four'>4</div>
-            <div class='five'>5</div>
-            <div class='six'>6</div>
-            <div class='seven'>7</div>
-            <div class='eight'>8</div>
+    <div className='green'>
+        <div className='greenchild'>
+            <div className='one'>1</div>
+            <div className='two'>2</div>
+            <div className='three'>3</div>
+            <div className='four'>4</div>
+            <div className='five'>5</div>
+            <div className='six'>6</div>
+            <div className='seven'>7</div>
+            <div className='eight'>8</div>
         </div>
     </div>
-    <footer class='orange'>Footer</footer>
+    <footer className='footer-class'>Footer</footer>
 </div>
   );
 }
